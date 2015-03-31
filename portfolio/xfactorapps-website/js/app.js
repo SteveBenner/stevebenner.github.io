@@ -1,0 +1,1 @@
+$(function(){$(".photo").on("click",function(){$(this).find(".info").toggleClass("show")})});

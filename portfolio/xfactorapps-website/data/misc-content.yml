@@ -1,0 +1,6 @@
+# Phone number that shows up at the bottom of the site
+company_phone_number: 415-968-9513
+# Address that shows up at the bottom of the site
+company_address: 3382 52nd Street, San Diego CA 92105
+# Default text which appears in the email SUBJECT line, when you click on a member's email link
+email_subject: ''

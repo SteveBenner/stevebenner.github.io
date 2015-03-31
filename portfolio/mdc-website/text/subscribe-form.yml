@@ -1,0 +1,12 @@
+pre-order:
+  button_text: Pre-Order the MyDentalCompanion System and receive our limited offer discount.
+  response: Thank you for your interest in purchasing the MyDentalCompanion System! One of our representatives will
+           contact you shortly with more information.
+beta-test:
+  button_text: Sign up as a MyDentalCompanion Beta Tester to try it out for free.
+  response: Thank you for your interest in helping to develop the MyDentalCompanion System! One of our representatives
+           will contact you shortly with more information about the beta testing program.
+mdc-updates:
+  button_text: Subscribe to receive MyDentalCompanion product updates.
+  response: Thank you for your interest in our ongoing feature development of the MyDentalCompanion System! You will
+           be contacted with the latest product developments and customer opportunities.

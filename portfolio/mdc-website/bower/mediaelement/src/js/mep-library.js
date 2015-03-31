@@ -1,0 +1,1 @@
+"undefined"!=typeof jQuery?mejs.$=jQuery:"undefined"!=typeof ender&&(mejs.$=ender);

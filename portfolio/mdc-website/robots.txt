@@ -1,0 +1,3 @@
+User-Agent: *
+Disallow: /email/
+Disallow: /text/

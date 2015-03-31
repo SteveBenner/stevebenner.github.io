@@ -1,0 +1,35 @@
+tim:
+  emails: tmwieg@xfactorapps.com
+  role: Founder and General Manager
+  title: DDS
+rob:
+  emails: rpkurtz@xfactorapps.com
+  role: Founder and General Manager
+  title: MPH
+claudio:
+  emails: carivero@xfactorapps.com
+  role: General Manager
+milton:
+  emails: mjacosta@xfactorapps.com
+  role: Accountant and Finance
+cabel:
+  emails: csbumanglag@xfactorapps.com
+  role: Graphic Designer
+stephen:
+  emails: scbenner@xfactorapps.com
+  role: Software Architect
+jonny:
+  emails: jdhalversen@xfactorapps.com
+  role: Graphic Designer
+erin:
+  emails: eestagg@xfactorapps.com
+  role: Lawyer
+mike:
+  emails: msmiller@xfactorapps.com
+  role: Systems Manager
+sherry:
+  emails:
+    - slgalley@xfactorapps.com
+    - sherry@alumni.lsu.edu
+  role: Human Resources
+  title: MS
