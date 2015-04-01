@@ -1,0 +1,5 @@
+# Humans responsible for the site 'The Gamer List'
+
+- Developer/Designer: Stephen Benner
+  Website: www.sensiblesolutions.me
+  Twitter: SteveBenner09

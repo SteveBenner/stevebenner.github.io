@@ -1,0 +1,131 @@
+<!DOCTYPE html >
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js" itemscope="itemscope" itemtype="http://schema.org/WebPage"> <!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title>Gamer List - Find Gamers Like You</title>
+		<meta name="description" content="You love multiplayer games, but can't find anyone to play with. Where all them gamers at? They're all here! If you're looking to crush some noobs, or perhaps learn a trick or two from the pros, find out who plays games in your area. JOIN THE LIST, BRO." />
+		<meta name="viewport" content="width=device-width">
+		<meta name="keywords" content="gamer list, multiplayer games, gamers, PUC, PUC gamers" />
+		<!-- <link rel="icon" href="img/favoicon.ico" type="image/x-icon"> -->
+		<!-- Included CSS Files, cascading from 'main.css' -->
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<div class="header">
+			<h5 class="tinyHead">the</h5>
+			<h5>Gamer List</h5>
+		</div>
+		<div class="content">
+			<div class="signupWrapper">
+				<div class="stripe1"></div>
+				<div class="signupHeader">
+					<h1><span class="schoolTitle">PUC</span> gamers</h1>
+					<h4>...Quit playing with yourselves.</h4>
+				</div>
+				<div class="signupContent">
+					<div class="signupCell">
+						<h2>Find out who's playing your favorite games at PUC</h2>
+					</div>
+					<div class="signupCell">
+						<div class="arrowRight1"></div>
+						<div class="square1"></div>
+					</div>
+					<div class="signupCell">
+						<div class="signupButton">JOIN THE LIST, BRO</div>
+					</div>
+				</div>
+			</div>
+			<div class="gamerListWrapper">
+				<div class="gamesNav">
+					<div class="gameButton LoL"></div>
+					<div class="gameButton BL2"></div>
+					<div class="gameButton WoW"></div>
+					<div class="gameButton SC2"></div>
+					<div class="gameButton D3"></div>
+					<div class="gameButton Steam"></div>
+					<div class="gameButton BO2"></div>
+				</div>
+			</div>
+			<div class="commentsWrapper">
+				<div class="sidebar">
+					<span>created by</span>
+					<a href="mailto:sbenner9@gmail.com">STEPHEN BENNER</a>
+				</div>
+				<div class="commentArea">
+					<h2>Leave a comment</h2>
+					<form id="addCommentForm">
+						<textarea id="addComment" class="comment" placeholder="Click here to explain how freakin' sweet this site is... Or what needs improvement!"></textarea>
+						<div class="commentSubmitArea">
+							<input type="text" id="commentAuthorName" class="comment" placeholder="Name (optional)" />
+							<div id="commentSubmit">SUBMIT</div>
+						</div>
+					</form>
+					<div class="commentList"></div>
+				</div>
+			</div>
+			<div class="popupWrapper">
+				<div class="popupWindow">
+					<div class="exitButton"><div><p>X</p></div></div>
+					<div class="popupHeader">
+						<h3>ID</h3>
+						<form id="addUserForm" autocomplete="on">
+							<label for="userEmail" form="addUserForm"><span class="schoolTitle">Email</span> (required)</label>
+							<input type="email" id="userEmail" autofocus="autofocus" form="addUserForm"
+							data-constraints="@Required @Email" />
+							<label for="userName" form="addUserForm"><span class="schoolTitle">Name</span> (optional)</label>
+							<input type="text" id="userName" form="addUserForm" maxlength="32" />
+						</form>
+					</div>
+					<div class="popupContent">
+						<h3><span class="textRight">ADD CHARACTER</span></h3>
+						<div id="gameListButton" class="gameListButton formButton">
+							<div class="gameButton LoL animated"></div>
+							<div class="gameButton BL2 animated"></div>
+							<div class="gameButton WoW animated"></div>
+							<div class="gameButton SC2 animated"></div>
+							<div class="gameButton D3 animated"></div>
+							<div class="gameButton Steam animated"></div>
+							<div class="gameButton BO2 animated"></div>
+						</div>
+						<p>Select a game</p>
+						<div class="charFormArea"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="footer"></div>
+		<!--I decided not to include sound effects in the site, but the implementation is almost complete.-->
+		<!-- Included Resources (sounds)
+		<audio preload="auto" id="LoL_SOUND">
+			<source src="sound/pentakill.mp3" />
+			<source src="sound/pentakill.ogg" />
+		</audio>
+		<audio preload="auto" id="BL2_SOUND"><source src="sound/catch_a_ride.mp3" /></audio>
+		<audio preload="auto" id="WoW_SOUND"><source src="sound/pentakill.mp3" /></audio>-->
+		<!-- Google Analytics -->
+		<script type="text/javascript">
+			var _gaq = _gaq || [];
+			_gaq.push(['_setAccount', 'UA-38498302-1']);
+			_gaq.push(['_trackPageview']);
+			(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+			})();
+		</script>
+		<!-- Included Javascripts -->
+		<!--<script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>-->
+		<!--<script src="//ajax.googleapis.com/ajax/libs/jqueryui/1.9.2/jquery-ui.min.js"></script>-->
+		<script src="js/vendor/jquery-1.9.1.min.js"></script>
+		<script src="js/vendor/jquery-ui-1.9.2.custom.min.js"></script>
+		<script src="js/vendor/regula.js.min"></script>
+		<script src="js/vendor/jquery.regula.js"></script>
+		<script src="js/vendor/jquery.tinysort.min.js"></script>
+		<script src="js/vendor/jquery.tinysort.charorder.min.js"></script>
+		<script src="js/gamerList.js"></script>
+	</body>
+</html>
