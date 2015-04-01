@@ -1,0 +1,25 @@
+HTML
+{
+	background: url(../img/bg01.jpg) repeat fixed;
+	-webkit-font-smoothing: aliased;
+	text-align: center;
+}
+@font-face
+{
+	font-family: "Old Standard TT";
+	font-style: normal;
+	font-weight: 400;
+	src: local('Old Standard TT Regular'), local('OldStandardTT-Regular'), url(http://themes.googleusercontent.com/static/fonts/oldstandardtt/v4/n6RTCDcIPWSE8UNBa4k-DAjWwMcLosnYS7_elQHKBmA.woff) format('woff');
+}
+P
+{
+	margin-top: 80px;
+	margin-bottom: 40px;
+	font-family: "Old Standard TT";
+	font-size: 2.6em;
+	color: #FFFFFF;
+}
+A
+{
+	color: #F9D694;
+}
